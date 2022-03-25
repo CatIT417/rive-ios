@@ -339,12 +339,6 @@ extension RiveView {
     }
     
     /// Updates the artboard and layout options
-    /// - Parameters:
-    ///   - riveFile: <#riveFile description#>
-    ///   - artboard: <#artboard description#>
-    ///   - animation: <#animation description#>
-    ///   - stateMachine: <#stateMachine description#>
-    ///   - autoPlay: <#autoPlay description#>
     open func configure(
         _ riveFile: RiveFile,
         andArtboard artboard: String? = nil,
