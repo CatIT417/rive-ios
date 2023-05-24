@@ -35,7 +35,7 @@ export CACHE_NAME="rive_skia_ios"
 export MAKE_SKIA_FILE="make_skia_ios.sh"
 export SKIA_DIR_NAME="skia"
 # we can have multiple at the same time...
-export ARCHIVE_CONTENTS_NAME="archive_contents_$ARCH_NAME"
+export ARCHIVE_CONTENTS_NAME="archive_contents_ios_$ARCH_NAME"
 
 if [ -d "$DEV_SCRIPT_DIR/../submodules/rive-cpp" ];
 then
